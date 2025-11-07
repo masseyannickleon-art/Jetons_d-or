@@ -1,0 +1,22 @@
+index.html<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎰 Mini Casino 🎰</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎰 Mini Casino 🎰</h1>
+    <p>Appuyez sur "Lancer" pour tirer votre jeton !</p>
+    <img id="tokenImg" src="assets/jeton1.png" alt="Jeton" class="token">
+    <button id="playBtn">🎲 Lancer</button>
+    <p id="result"></p>
+    <p id="score">💰 Total : 0</p>
+    <audio id="winSound" src="assets/win.mp3"></audio>
+    <audio id="loseSound" src="assets/lose.mp3"></audio>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
